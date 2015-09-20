@@ -4175,9 +4175,9 @@
 			/* padding-right: 2.5em; */
 		}
 
-			#footer ul.icons li:last-child {
-				padding-right: 0;
-			}
+		#footer ul.icons li:last-child {
+			padding-right: 0;
+		}
 
 		#footer .copyright {
 			color: #a5a9ad;
@@ -4187,11 +4187,15 @@
 			text-transform: uppercase;
 		}
 
-			#footer .copyright li {
-				display: inline-block;
-				list-style: none;
-				margin: 0 0.1em;
-			}
+		#footer .copyright li {
+			display: inline-block;
+			list-style: none;
+			margin: 0 0.1em;
+		}
+		
+		#footer .copyright img {
+			width: 12em;
+		}
 
 		@media screen and (max-width: 980px) {
 
@@ -4226,3 +4230,9 @@
 			}
 
 		}
+
+/* Auxilliary styles */
+
+.experimental {
+	color: #51baa4;
+}
