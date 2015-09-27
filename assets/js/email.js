@@ -46,6 +46,7 @@ $(document).ready(function(){
               data: form,
               dataType: "json",
               success: function () {
+				  $("#email-form")[0].reset()
 				  setTimeout(function(){
                     $("#email-message").text("Thank you for your message!")
                   }, 2500);
